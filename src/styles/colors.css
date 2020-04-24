@@ -1,0 +1,56 @@
+:root {
+  --color-hue-primary: 204;
+  --color-primary-100: hsl(var(--color-hue-primary), 100%, 90%);
+  --color-primary-200: hsl(var(--color-hue-primary), 100%, 80%);
+  --color-primary-300: hsl(var(--color-hue-primary), 100%, 70%);
+  --color-primary-400: hsl(var(--color-hue-primary), 100%, 60%);
+  --color-primary-500: hsl(var(--color-hue-primary), 100%, 50%);
+  --color-primary-600: hsl(var(--color-hue-primary), 100%, 40%);
+  --color-primary-700: hsl(var(--color-hue-primary), 100%, 30%);
+  --color-primary-800: hsl(var(--color-hue-primary), 100%, 20%);
+  --color-primary-900: hsl(var(--color-hue-primary), 100%, 10%);
+
+  --color-hue-grey: 220;
+  --color-grey-100: hsl(var(--color-hue-grey), 10%, 90%);
+  --color-grey-200: hsl(var(--color-hue-grey), 10%, 80%);
+  --color-grey-300: hsl(var(--color-hue-grey), 10%, 70%);
+  --color-grey-400: hsl(var(--color-hue-grey), 10%, 60%);
+  --color-grey-500: hsl(var(--color-hue-grey), 10%, 50%);
+  --color-grey-600: hsl(var(--color-hue-grey), 10%, 40%);
+  --color-grey-700: hsl(var(--color-hue-grey), 10%, 30%);
+  --color-grey-800: hsl(var(--color-hue-grey), 10%, 20%);
+  --color-grey-900: hsl(var(--color-hue-grey), 10%, 10%);
+
+  --color-hue-success: 146;
+  --color-success-100: hsl(var(--color-hue-success), 100%, 90%);
+  --color-success-200: hsl(var(--color-hue-success), 100%, 80%);
+  --color-success-300: hsl(var(--color-hue-success), 100%, 70%);
+  --color-success-400: hsl(var(--color-hue-success), 100%, 60%);
+  --color-success-500: hsl(var(--color-hue-success), 100%, 50%);
+  --color-success-600: hsl(var(--color-hue-success), 100%, 40%);
+  --color-success-700: hsl(var(--color-hue-success), 100%, 30%);
+  --color-success-800: hsl(var(--color-hue-success), 100%, 20%);
+  --color-success-900: hsl(var(--color-hue-success), 100%, 10%);
+
+  --color-hue-warning: 51;
+  --color-warning-100: hsl(var(--color-hue-warning), 100%, 90%);
+  --color-warning-200: hsl(var(--color-hue-warning), 100%, 80%);
+  --color-warning-300: hsl(var(--color-hue-warning), 100%, 70%);
+  --color-warning-400: hsl(var(--color-hue-warning), 100%, 60%);
+  --color-warning-500: hsl(var(--color-hue-warning), 100%, 50%);
+  --color-warning-600: hsl(var(--color-hue-warning), 100%, 40%);
+  --color-warning-700: hsl(var(--color-hue-warning), 100%, 30%);
+  --color-warning-800: hsl(var(--color-hue-warning), 100%, 20%);
+  --color-warning-900: hsl(var(--color-hue-warning), 100%, 10%);
+
+  --color-hue-error: 0;
+  --color-error-100: hsl(var(--color-hue-error), 100%, 90%);
+  --color-error-200: hsl(var(--color-hue-error), 100%, 80%);
+  --color-error-300: hsl(var(--color-hue-error), 100%, 70%);
+  --color-error-400: hsl(var(--color-hue-error), 100%, 60%);
+  --color-error-500: hsl(var(--color-hue-error), 100%, 50%);
+  --color-error-600: hsl(var(--color-hue-error), 100%, 40%);
+  --color-error-700: hsl(var(--color-hue-error), 100%, 30%);
+  --color-error-800: hsl(var(--color-hue-error), 100%, 20%);
+  --color-error-900: hsl(var(--color-hue-error), 100%, 10%);
+}
