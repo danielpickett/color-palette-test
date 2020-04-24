@@ -5,7 +5,6 @@ import { Swatches } from './components';
 function App() {
   return (
     <div className="App">
-      Hello, world!
       <Swatches></Swatches>
     </div>
   );

@@ -2,7 +2,7 @@ import React from 'react'
 import './Swatches.scss'
 
 export const Swatches = () => {
-  const colors = ['primary', 'grey', 'success', 'warning', 'error']
+  const colors = ['label', 'primary', 'grey', 'success', 'warning', 'error']
 
   const scale = [
     '050',
@@ -17,15 +17,27 @@ export const Swatches = () => {
     '900',
   ]
   return (
-    <div className="ColorSwatches">
+    <div className="Swatches">
+      {/* {scale.map((lightness, i) => (
+        <div className="Swatches__color" key={i}>
+          <div className="Swatches__column-label">{lightness}</div>
+        </div>
+      ))} */}
       {colors.map((color, i) => (
-        <div className="ColorSwatches__color" key={i}>
-          {scale.map((lightness, j) => (
+        <div className="Swatches__color" key={i}>
+          <div className="Swatches__row-label">
+            {color !== 'label' ? color : ''}
+          </div>
+          {scale.map((lightness, j) =>
+            color === 'label' ? (
+              <div className="Swatches__column-label">{lightness}</div>
+            ) : (
               <div
-                className={`ColorSwatches__swatch color-${color}-${lightness}`}
+                className={`Swatches__swatch color-${color}-${lightness}`}
                 key={j}
               />
-          ))}
+            )
+          )}
         </div>
       ))}
     </div>
